@@ -1,0 +1,16 @@
+/*
+InfoPlist.strings
+ProductInstaller
+
+Created by SZ13031814M01 on 13/06/2019.
+Copyright © 2019 PE. All rights reserved.
+*/
+"PID" = "6764";
+"Language" = "it";
+"CFBundleName" = "Installatore di MobileTrans";
+"CFBundleDisplayName" = "Installatore di MobileTrans";
+"NSHumanReadableCopyright" = "Copyright © 2021 Wondershare.\nTutti i Diritti Riservati.";
+"CustomerServiceURL" = "http://cbs.wondershare.com/go.php?pid=6764&m=dc";
+"ProductPageURL" = "http://cbs.wondershare.com/go.php?pid=6764&m=dp";
+"UserAgreementURL" = "http://pop.wondershare.it/license.html";
+"PrivacyPolicyURL" = "http://pop.wondershare.it/license.html";

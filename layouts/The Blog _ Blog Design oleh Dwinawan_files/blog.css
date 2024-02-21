@@ -1,0 +1,426 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#1a1b1f;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    background-color: #E3E6EC;
+    background-image: url("blog/bgarticle.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+
+
+.container{
+    max-width:1120px;
+    padding:0px;
+}
+
+.marginbottom{
+    height: 100px;
+}
+
+/* Judul Artikel */
+
+.marginheadertojudul {
+    height: 50px;
+}
+
+.judulartikel{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    max-width: 667px;
+}
+
+.judulartikelsmall{
+    font-size: 75px;
+    line-height: 85px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    max-width: 667px;
+}
+
+.boxavatars{
+    width:60px;
+}
+.avatardesigner{
+    border-radius:2000px;
+    width:100%;
+    display: inline-block;
+    padding:2px;
+}
+
+.avatardesigner img{
+    width: 100%;
+    border-radius: 2000px;
+}
+
+.paddingphoto{
+    /*border: 5px solid #E3E6EC;*/
+    border-radius: 2000px;
+    background-color: #E3E6EC;
+}
+
+.gradientavatars{
+    background: -webkit-linear-gradient(left top, rgb(216,15,233) 0%, rgb(	242	,36	,23) 100%);
+    transition: all 0.4s ease-in-out;
+}
+
+.imageartikel img{
+    width:100%;
+}
+
+.imageartikel{
+    max-width: 900px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.fotopenulis{
+    display: inline-block;
+}
+
+.namadantanggal{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 11px;
+}
+
+.infopenulis{
+    margin-top:43px;
+    margin-bottom: 100px;
+}
+
+.namapenulis{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.3px;
+    background: -webkit-linear-gradient(#F03226, #C416D3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tanggalmenulis{
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    opacity: 0.5;
+    font-weight: 200;
+    margin-top:10px;
+}
+
+.isiartikel{
+    max-width: 700px;
+    margin:0 auto;
+}
+
+.introartikel{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: #121212;
+    letter-spacing: 0px;
+}
+
+.textartikel{
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 200;
+    letter-spacing: 0.3px;
+    color: #323947;
+    margin-top:40px;
+}
+
+.separatorsection{
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 200;
+    letter-spacing: 0px;
+    color: #323947;
+    margin:30px 0px;
+    text-align: center;
+}
+
+.textartikel ul{
+    margin:20px 0px;
+}
+
+.textartikel ul li{
+    margin:20px 0px;
+}
+
+.textartikel ul li span{
+    font-weight: 500;
+}
+
+.textartikel ol{
+    margin:20px 0px;
+}
+
+.textartikel ol li{
+    margin:20px 0px;
+}
+
+.textartikel ol li span{
+    font-weight: 500;
+}
+
+.applause{
+    padding:30px;
+    border-top:1px solid #dedede;
+}
+
+.textapplause{
+    text-align: center;
+}
+
+.buttonapplause{
+    text-align: center;
+    margin:0 auto;
+    width:58px;
+    margin-top:50px;
+}
+
+.buttonapplause .count{
+    color:#FF4C5A;
+    margin-top:-15px;
+}
+
+
+
+.listartikel_lain{
+    margin-bottom:20px;
+    padding:0px 8px;
+    text-align: center;
+    margin-top:32px;
+}
+
+.listartikel_tanggalmenulisartikel_lain{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.5;
+    margin-bottom:14px;
+}
+
+.thumbnailartikel_lain{
+    background: #f5f6f8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.thumbnailartikel_lain img{
+    width: 100%;
+}
+
+.contentsmallartikel_lain{
+    padding:20px 20px 40px 0px;
+    text-align: left;
+}
+
+.small_judulartikel_lain{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #ccc;
+}
+
+
+
+.categoryseparator2{
+    color:#fff;
+    font-size:60px;
+    line-height: 60px;
+    margin:0px 0px 40px 0px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+}
+
+.artikellainnya{
+    background:#000000;
+    padding:100px 0px;
+    margin-top:100px;
+}
+
+.artikellainnya a{text-decoration: none;}
+
+.displaynone{display: none;}
+
+
+
+@media only screen and (max-width: 1200px) {
+    .container{
+        padding:40px;
+    }
+    /*
+    .headerarea{
+        padding: 60px 40px;
+    }
+    */
+}
+
+@media only screen and (max-width: 1024px) {
+    .container{
+        padding:20px 80px;
+    }
+    /*
+    .headerarea{
+        padding: 40px 40px;
+    }
+    */
+
+    .judulartikel {
+        font-size: 80px;
+        line-height: 80px;
+        max-width: 667px;
+    }
+    .judulartikelsmall {
+        font-size: 65px;
+        line-height: 75px;
+        max-width: 667px;
+    }
+
+    body{
+        background-size: 190%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container{
+        padding:20px 80px;
+    }
+    /*
+    .headerarea{
+        padding: 40px 40px;
+    }
+    */
+
+    .judulartikel {
+        font-size: 60px;
+        line-height: 60px;
+        max-width: 400px;
+    }
+    .judulartikelsmall {
+        font-size: 45px;
+        line-height: 55px;
+        max-width: 400px;
+    }
+
+    body{
+        background-size: 190%;
+    }
+
+    .introartikel {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container{
+        padding:0px 40px;
+    }
+    
+    .headerarea{
+        padding: 20px 20px 0px 20px;
+    }
+
+    .judulartikel {
+        font-size: 50px;
+        line-height: 50px;
+        max-width: 400px;
+    }
+    .judulartikelsmall {
+        font-size: 40px;
+        line-height: 50px;
+        max-width: 400px;
+    }
+
+    .introartikel {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .textartikel{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .contentsmallartikel_lain{
+        padding:20px 20px 0px 0px;
+        text-align: left;
+    }
+
+    .categoryseparator2{
+        color:#fff;
+        font-size:40px;
+        line-height: 40px;
+        margin:0px 0px 10px 0px;
+        font-weight: 500;
+        letter-spacing: 0px;
+    }
+    
+    .artikellainnya{
+        background:#000000;
+        padding:80px 0px;
+        margin-top:100px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .container{
+        padding:0px 20px;
+    }
+
+    .marginheadertojudul {
+        height: 40px;
+    }
+
+    body{
+        background-size: 250%;
+    }
+
+    .infopenulis {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .imageartikel{
+        width:100%;
+        margin-top:40px;
+        margin-bottom:40px;
+    }
+    
+    .headerarea{
+        padding: 20px 20px 0px 20px;
+    }
+
+    .judulartikel {
+        font-size: 40px;
+        line-height: 45px;
+        max-width: 300px;
+    }
+    .judulartikelsmall {
+        font-size: 35px;
+        line-height: 45px;
+        max-width: 300px;
+    }
+
+    .textartikel{
+        margin-top:20px;
+    }
+
+   .separatorsection{
+        margin:20px 0px;
+   }
+}

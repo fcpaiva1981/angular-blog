@@ -1,0 +1,764 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color:#1a1b1f;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    background-color: #E3E6EC;
+    background-color: #ffffff;
+    background-color: #ECECEC;
+    background-image: url(blog/bggrunge.png);
+    background-image: none;
+    background-repeat: repeat-y;
+    background-position: top center;
+    background-size:100%;
+}
+
+a{
+    text-decoration: none;
+    color:#1a1b1f;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#1a1b1f;
+}
+
+.marginheadertojudul{
+    height: 0px;
+}
+
+.container{
+    max-width:1280px;
+}
+
+.separatorwrapper{
+    padding:0px 20px;
+}
+
+.judulhalaman{
+    color:#121212;
+    border-bottom:0px solid #222222;
+    padding:0px 0px 0px 0px;
+    font-size:16px;
+    line-height:26px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom:40px;
+    opacity:0.3;
+ }
+
+.judulhalaman img{
+    width:100%;
+}
+
+
+
+.listartikel_tanggalmenulisartikel{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    opacity: 0.5;
+    letter-spacing:0.2;
+    padding:0px 0px 10px;
+}
+
+
+.featured_tanggalmenulis{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    color: #ffffff;
+    
+    opacity: 0.3;
+    letter-spacing:0.2;
+    padding:20px 0px 10px;
+}
+
+.listartikel_judulartikel{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    color: #121212;
+    margin-bottom:16px;
+}
+
+.listartikel_synopsis{
+    font-size: 16px;
+    line-height: 26px;
+    color: #323947;
+    color: rgba(255,255,255,0.5);
+    
+    font-weight: 200;
+}
+.thumbnailartikel{
+    background: #f5f6f8;
+    
+    border-radius: 8px;
+    border-radius: 0px;
+    overflow: hidden;
+}
+.thumbnailartikel img{
+    width: 100%;
+}
+
+.contentartikel{
+    padding:30px 20px 40px 20px;
+}
+.listartikel{
+    margin-bottom:20px;
+    padding:0px 12px;
+    text-align: center;
+}
+
+.artikelterbarupadding{
+    padding:0px 8px;
+}
+
+.artikellainnyapadding{
+    padding:0px 20px;
+}
+
+.featured_right_section{
+    padding:0px 20px;
+}
+
+.featuredartikel{
+    margin-bottom:40px;
+    padding:0px 20px;
+    text-align: left;
+}
+
+.featuredartikel_small{
+    border-bottom:1px solid rgba(255,255,255,0.1);
+    text-align: left;
+    padding-bottom:32px;
+    margin-top:32px;
+}
+
+.contentfeaturedartikel{
+    padding:24px 0px 0px 0px;
+}
+
+.featured_judulartikel{
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 62px;
+    letter-spacing: 0px;
+    color: #121212;
+    margin-bottom:16px;
+}
+
+.featured_judulartikellong{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    color: #121212;
+    color: #ffffff;
+    opacity:0.8;
+    margin-bottom:16px;
+}
+
+.featured_small_judulartikel{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #121212;
+    color: #ffffff;
+    opacity:0.8;
+}
+
+.featured_small_tanggalmenulisartikel{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    color: #ffffff;
+    opacity: 0.3;
+    letter-spacing:0.5px;
+    padding:4px 0px 10px;
+}
+
+.contentsmallartikel{
+    padding:20px 20px 40px 0px;
+    text-align: left;
+}
+
+.small_judulartikel{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #121212;
+    margin-bottom:16px;
+}
+
+.small_synopsis{
+    font-size: 15px;
+    line-height: 23px;
+    color: #323947;
+    font-weight: 200;
+}
+
+
+
+.articleinlist_tanggalmenulisartikel{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    opacity: 0.5;
+    letter-spacing: 0.2px;
+    padding:0px 0px 10px;
+}
+
+.articleinlist_judulartikel{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #121212;
+    margin-bottom:6px;
+}
+
+.articleinlist_synopsis{
+    font-size: 15px;
+    line-height: 23px;
+    color: #323947;
+    font-weight: 200;
+}
+
+.articleinlist{
+    border-bottom:0px solid #e5e5e5;
+    text-align: left;
+    padding-bottom:10px;
+    margin-top:40px;
+}
+
+.list_left_section{
+    padding-right:0px;
+}
+
+.articleinlist .thumbnailartikel {margin-top:20px;}
+
+.arsiparticle_tanggalmenulisartikel{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    opacity: 0.5;
+    letter-spacing: 0.3px;
+    padding:0px 0px 6px;
+    display:;
+}
+
+.arsiparticle_judulartikel{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing:0.4px;
+    color: #121212;
+}
+
+.arsiparticlelist{
+    border-bottom:1px solid #e5e5e5;
+    text-align: left;
+    padding-bottom:16px;
+    margin-top:16px;
+}
+
+.arsiparticlelist {
+    border-bottom: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+    text-align: left;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 24px;
+    margin-top: 0px;
+}
+
+.noborder{border:0px;}
+.smvisible{display:none;}
+.smnone{display:block;}
+
+.editorpick_desc{
+    font-size:14px;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    opacity:0.7;
+    padding-top:20px;
+}
+
+.editorpick_title{
+    font-size:22px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    font-weight: 600;
+}
+
+.editorpick_number{
+    font-size:40px;
+    line-height: 40px;
+    letter-spacing: 0.3px;
+    font-weight: 300;
+    margin-bottom:20px;
+    display:none;
+}
+
+.editorpick{
+    padding:0px;
+    border-right:1px solid #e5e5e5;
+}
+
+.editorpick_tanggalmenulisartikel{
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 11px;
+    color: #000000;
+    opacity: 0.5;
+    letter-spacing:0.2;
+    padding:16px 0px 10px;
+}
+
+.editorpick_thumbnail img{width:100%;}
+
+.editorpick_paddinginside{
+    padding: 0px 28px;
+    min-height: 400px;
+}
+.wrappereditorpick{
+    margin-left:-8px;
+    margin-right:-8px;
+    margin-bottom:40px;
+}
+
+.separatoreditor{display: none;}
+
+.separatoreditorwrapper{display: none;}
+
+.dark{background:#121212;padding:20px 40px 40px 40px;}
+.whitearea{background:#ffffff;padding:60px 40px 40px 40px;}
+.menu a {
+    color: #ffffff !important;
+}
+
+.logoblog img{
+    width: 100%;
+    margin:20px 0px 60px;
+    padding:40px 0px;
+    border-top:1px solid rgba(255,255,255,0.1);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.marginbottom{height:40px;}
+
+.showondesktop{display: block;}
+.showonmobile{display: none;}
+
+.separatorsidebar{height:60px;}
+
+
+
+.blogtestimonial{
+    border-left:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+    padding-bottom:24px;
+    padding-top:24px;
+    padding-left:20px;    
+}
+
+.blogtestimonial_avatar{
+    position: absolute;
+}
+
+.blogtestimonial_avatar img{
+    border-radius:2000px;
+    width:36px;
+}
+
+.blogtestimonial_right{
+    padding-left: 50px;
+}
+
+.blogtestimonial_text{
+    font-size: 13px;
+    line-height: 21px;
+    color: #404852;
+    font-weight: 300;
+    letter-spacing:0.5px;
+}
+
+.blogtestimonial_user{
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #121212;
+    margin-top: 6px;
+    letter-spacing:0.5px;
+}
+
+
+.titleondark{
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.dateonondark{
+    color: #ffffff;
+    opacity: 0.3;
+}
+
+.descondark{
+    color: rgba(255,255,255,0.5);
+}
+
+.lineondark{
+    border-color: rgba(255,255,255,0.1);
+}
+
+.marginbanner{
+    margin:60px 0px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container{padding:0px;}
+}
+
+@media only screen and (max-width: 990px) {
+
+    .editorpick_paddinginside{
+        min-height:0px;
+    }
+
+    .featured_tanggalmenulis{
+        padding-top:0px;
+    }
+    .toparticle{
+        border-top:1px solid rgba(255,255,255,0.1);
+        padding-top:24px;
+    }
+    .editorpick{
+        border-bottom:0px solid #e5e5e5;
+        border-right:0px;
+    }
+    .editorpick_desc{
+        padding-top:10px;
+    }
+    .editorpick{
+        padding-right:0px;
+        padding-left:0px;
+    }
+    .editorpick_number{
+        font-size:28px;
+        line-height: 28px;
+    }
+
+    .separatoreditor{
+        border-top:0px solid #e5e5e5;
+        margin:0px 0px;
+        display: block;
+    }
+    .separatoreditorwrapper{
+        padding:28px;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    .marginbanner{
+        margin:30px -20px;
+    }
+
+    .blogtestimonial{
+        border-left:0px solid #e5e5e5;
+        border-bottom:1px solid #dedede;
+        padding-bottom:24px;
+        padding-top:24px;
+        padding-left:0px;    
+    }
+
+    .arsiparticlelist {
+        border-bottom: 1px solid #e5e5e5;
+        border-left: 0px solid #e5e5e5;
+        text-align: left;
+        padding-bottom: 24px;
+        padding-top: 24px;
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+
+    .blogtestimonial_text{
+        font-size: 14px;
+        line-height: 22px;
+        color: #404852;
+        font-weight: 300;
+        letter-spacing:0.5px;
+    }
+    
+    .blogtestimonial_user{
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
+        color: #121212;
+        margin-top: 6px;
+        letter-spacing:0.5px;
+    }
+
+    .showondesktop{display: none;}
+    .showonmobile{display: block;}
+
+    .dark{padding:0px 20px;}
+    .whitearea{padding:20px;}
+
+    .separatoreditorwrapper{
+        padding:10px;
+        display: block;
+    }
+
+    .editorpick_desc{display: none;}
+    .editorpick{border:0px;}
+
+    .featured_judulartikellong {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .smvisible{display:block;}
+    .smnone{display:none;}
+
+    .featured_tanggalmenulis{
+        padding-top:20px;
+    }
+
+    .featuredartikel{
+        padding:0px 20px;
+    }
+
+    .list_left_section{
+        padding-right:10px;
+    }
+
+    .articleinlist_judulartikel{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .articleinlist_synopsis{
+        display: none;
+    }
+
+   
+    
+   .articleinlist {
+        padding-bottom: 16px;
+        margin-top: 16px;
+    }
+
+    .articleinlist .thumbnailartikel {
+        margin-top: 0px;
+    }
+
+    .arsiparticle_judulartikel{
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .small_judulartikel {
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0px;
+        color: #121212;
+        margin-bottom: 8px;
+    }
+
+    .listartikel_tanggalmenulisartikel{
+        padding-bottom:8px;
+    }
+
+    .contentsmallartikel{
+        padding-bottom:20px;
+    }
+
+    .dateandtitle{
+        padding-right:10px;
+    }
+
+    .separatorwrapper{
+        padding:0px;
+    }
+    .featuredartikel{
+        padding:0px;
+    }
+    .featured_right_section{
+        padding:0px;
+    }
+
+
+    .artikelterbarupadding{
+        padding:0px;
+    }
+    .listartikel{
+        padding:0px;
+    }
+    .artikellainnyapadding{
+        padding:0px;
+    }
+    .featured_right_section{
+        padding:0px;
+    }
+    
+    .menu{
+        padding:30px 10px;
+    }
+    .linksocialmedia{
+        padding:35px 8px;
+    }
+
+    .featured_small_judulartikel{
+        font-size: 18px;
+        line-height: 24px;        
+    }
+
+    .featured_small_tanggalmenulisartikel{
+        padding:0px 0px 10px;
+    }
+
+    .editorpick_paddinginside{padding:10px;}
+
+    .editorpick_title{
+        font-size:18px;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        font-weight: 600;
+    }
+
+    .editorpick_number{
+        font-size:24px;
+        line-height: 24px;
+    }
+
+    .wrappereditorpick{
+        margin-left:-10px;
+        margin-right:-10px;
+        margin-bottom:28px;
+    }
+    
+    .judulhalaman{
+        margin-bottom:28px;
+    }
+
+    .arsipsection{
+        background:#f5f6f8;padding:20px;margin-right:-20px;margin-left:-20px;margin-top:20px;
+    }
+    .marginbottom{
+        background:#f5f6f8;padding:20px;margin:-20px;height:100px;
+    }
+    .logoblog img{
+        margin:0px 0px 28px 0px;
+        padding:20px 0px;
+    }
+}
+
+/* LARGE SCREEN */
+
+@media only screen and (min-width: 1680px) {
+
+    .container {
+        max-width: 1440px;
+    }
+    
+    .featured_small_judulartikel {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .featured_small_tanggalmenulisartikel {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .featured_tanggalmenulis {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .featured_judulartikellong {
+        font-size: 32px;
+        line-height: 42px;
+    
+    }
+    
+    .listartikel_synopsis {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .editorpick_desc {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 200;
+        opacity:1;
+    }
+    
+    .editorpick_title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .editorpick_tanggalmenulisartikel {
+        font-size: 14px;
+        line-height: 15px;
+     }
+    
+    
+     .small_synopsis {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .articleinlist_synopsis {
+        font-size: 18px;
+        line-height: 28px;
+    
+    }
+    
+    .articleinlist_tanggalmenulisartikel {
+        font-size: 14px;
+        line-height: 14px;
+      
+    }
+    
+    .articleinlist_judulartikel {
+        font-size: 25px;
+        line-height: 35px;
+    }
+        
+    
+    .arsiparticle_judulartikel {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    
+    .arsiparticle_tanggalmenulisartikel {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

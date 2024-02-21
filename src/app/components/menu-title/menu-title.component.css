@@ -1,0 +1,15 @@
+.menu-title {
+  color: white;
+}
+
+.menu-title > h1 {
+  margin: 10px 10px;
+  font-size: 135px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+ .menu-title > hr {
+   margin: 5px 5px;
+ }
